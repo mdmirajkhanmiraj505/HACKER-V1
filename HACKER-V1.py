@@ -139,7 +139,7 @@ logo =("""\033[0;92m
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\x1b[1;96m  : [★]  Bangladeshi  
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\x1b[1;96m    : [★]  01780782237    
 \33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\x1b[1;96m  : [★]  RANDOM-CLONING
-\33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\x1b[1;96m: [★]  TRIAL  -𝗩-3
+\33[38;5;196m┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\x1b[1;96m: [★]  TRIAL  -𝗩-5
 \33[38;5;196m┗━━━━━━━━━━━━━━━━━━━\033[1;31m{{ M+K }} MIRAJ \33[38;5;196m━━━━━━━━━━━━━━━━━━━━┛""") 
 
 loop = 0
@@ -405,7 +405,7 @@ def rcrack(uid,pwx,tl):
     'upgrade-insecure-requests': '1',
     'user-agent':pro}
 
-            lo = session.post('https://free.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            lo = session.post('https://www.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 
             log_cookies=session.cookies.get_dict().keys()
 
